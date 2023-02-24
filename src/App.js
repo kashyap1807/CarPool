@@ -4,7 +4,7 @@ import Home from './Home';
 import Sign from './Sign';
 import About from './About';
 import Login from './Login';
-import Footer from './Footer';             
+import Footer from  './Footer';             
 
 function App() {
   return (
