@@ -48,7 +48,7 @@ code {
   margin: 40px auto;
   padding: 20px;
 }
-.home h2{
+.home h1{
   font-weight: 800;
   text-align: center;
   color: #3b71ca ;
@@ -68,3 +68,79 @@ code {
 .footer h6{
   color: #3b71ca;
 }
+
+.col6{ 
+  padding: 40px 0px 0px 0px;  
+  height: 250px;
+  text-align: center;
+  }
+ .heading{
+  font-size: 50px; 
+}
+.home h4{
+  font-weight: 800;
+  text-align: center;
+  color: #3b71ca ;
+}
+
+.homeh3{
+  font-weight: 800;
+  text-align: center;
+  color: #3b71ca ;
+}
+
+.homep{
+
+  text-align: center;
+  
+}
+.heading-2{
+  font-weight: 800;
+  text-align: center;
+  color: #3b71ca ;
+}
+.sec2h3{
+  font-weight: 800;
+  text-align: center;
+  color: #000000 ;
+}
+.heading{
+  font-weight: 800;
+  text-align: center;
+  color: #000000 ;
+}
+.input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+.seekride h4{
+  font-weight: 800;
+  text-align: center;
+  color: #3b71ca ;
+}
+#form1{
+  border: 1px solid #3b71ca;
+}
+#form2Example1{
+  border: 1px solid #3b71ca;
+}
+#form3Example1{
+  border: 1px solid #3b71ca;
+}
+
+.publish h4{
+  font-weight: 800;
+  text-align: center;
+}
+
+
+
+

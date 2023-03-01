@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Login = () => {
 
@@ -16,7 +17,7 @@ return (
 
       
         <div class="form-outline mb-4">
-          <input type="password" id="form2Example2" class="form-control" />
+          <input type="password" id="form2Example1" class="form-control" />
           <label class="form-label" for="form2Example2">Password</label>
         </div>
 
@@ -29,19 +30,19 @@ return (
               <label class="form-check-label" for="form2Example31"> Remember me </label>
             </div>
           </div>
-
+          
           <div class="col">
           
             <a href="#!">Forgot password?</a>
           </div>
         </div>
 
-
+        <br />
         <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+        <br />
 
-        
         <div class="text-center">
-          <p>Not a member? <a href="#!">Register</a></p>
+          <p>Not a member? <Link to="/sign">Register</Link></p>
           <p>or sign up with:</p>
           <button type="button" class="btn btn-link btn-floating mx-1">
             <i class="fab fa-facebook-f"></i>

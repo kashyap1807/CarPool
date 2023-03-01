@@ -19,7 +19,7 @@ const Sign = () => {
             </div>
             <div class="col">
               <div class="form-outline">
-                <input type="text" id="form3Example2" class="form-control" />
+                <input type="text" id="form3Example1" class="form-control" />
                 <label class="form-label" for="form3Example2">
                   Last name
                 </label>
@@ -28,14 +28,14 @@ const Sign = () => {
           </div>
 
           <div class="form-outline mb-4">
-            <input type="email" id="form3Example3" class="form-control" />
+            <input type="email" id="form3Example1" class="form-control" />
             <label class="form-label" for="form3Example3">
               Email address
             </label>
           </div>
 
           <div class="form-outline mb-4">
-            <input type="password" id="form3Example4" class="form-control" />
+            <input type="password" id="form3Example1" class="form-control" />
             <label class="form-label" for="form3Example4">
               Password
             </label>
@@ -54,29 +54,11 @@ const Sign = () => {
               I agree all statements of T & C
             </label>
           </div>
-
+          <br />
           <button type="submit" class="btn btn-primary btn-block mb-4">
             Register
           </button>
 
-          <div class="text-center">
-            <p>or sign up with:</p>
-            <button type="button" class="btn btn-secondary btn-floating mx-1">
-              <i class="fab fa-facebook-f"></i>
-            </button>
-
-            <button type="button" class="btn btn-secondary btn-floating mx-1">
-              <i class="fab fa-google"></i>
-            </button>
-
-            <button type="button" class="btn btn-secondary btn-floating mx-1">
-              <i class="fab fa-twitter"></i>
-            </button>
-
-            <button type="button" class="btn btn-secondary btn-floating mx-1">
-              <i class="fab fa-github"></i>
-            </button>
-          </div>
         </form>
       </div>
     </div>

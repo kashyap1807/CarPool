@@ -5,6 +5,8 @@ import Sign from './Sign';
 import About from './About';
 import Login from './Login';
 import Footer from  './Footer';             
+import SeekRide from './SeekRide';
+import Publish from './Publish';
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
         <Navbar/>
           <div className="content">
             <Switch>
-              <Route exact path="/home">
+              <Route exact path="/home" >
                 <Home/>
               </Route>
               <Route exact path="/sign">
@@ -24,6 +26,12 @@ function App() {
               </Route>
               <Route exact path="/login">
                 <Login/>
+              </Route>
+              <Route exact path="/seekride">
+                <SeekRide/>
+              </Route>
+              <Route exact path="/publish">
+                <Publish/>
               </Route>
             </Switch>
           </div>
